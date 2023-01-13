@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./pages/home/index.css" />
+    <title>Git Search</title>
+  </head>
+  <body>
+    <main id="main" class="flex">
+      <section id="section" class="flex alignCenter about">
+        <div class="marginAuto flex column rowGap aboutBox">
+          <h1 class="title1">Git Search</h1>
+          <p class="text1">
+            Encontre e se conecte com profissionais de forma rápida e fácil
+          </p>
+          <div id="recentProfiles" class="flex alignCenter columnGap">
+            <span class="text2">Achados Recentemente:</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="section" class="flex alignCenter search">
+        <div class="marginAuto flex column rowGap">
+          <h2 class="text1">Procurar por um usuário</h2>
+          <div class="flex column rowGap">
+            <label for="user">Usuário github</label>
+            <input
+              type="text"
+              class="searchInput"
+              name="user"
+              id="user"
+              placeholder="Digite um usuário do github aqui..."
+            />
+            <span class="alert hideMe">Usuário não Encontrado</span>
+            <button id="goFind" class="searchButton" disabled="true">
+              Ver perfil do github
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./pages/home/index.js"></script>
+  </body>
+</html>
