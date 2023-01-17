@@ -49,8 +49,8 @@ function showMyRepo(repoList) {
     myRepo.insertAdjacentHTML(
       "beforeEnd",
       `<li class="flex wrap rowGap columnGap">
-        <h3 class="text1 min250 ">${repo.name}</h3>
-        <p class="text5 min250"><span>Sobre: </span>${
+        <h3 class="text1 widthFull ">${repo.name}</h3>
+        <p class="text5 widthFull"><span>Sobre: </span>${
           repo?.description || "-"
         }</p>
         <a  class="buttonLink" href="${repo.svn_url}">Repositório</a>
