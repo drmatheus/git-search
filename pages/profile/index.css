@@ -39,7 +39,6 @@ li {
   padding: 30px 20px;
   border: 2px solid var(--color-grey-6);
   border-radius: 8px;
-  position: relative;
 }
 
 .widthFull {
