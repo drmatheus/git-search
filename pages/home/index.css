@@ -115,9 +115,14 @@ button:disabled {
 
   .about {
     width: 100%;
+
     padding: 16px;
     height: 50vh;
     margin: 0;
+  }
+
+  .aboutBox {
+    max-width: 316px;
   }
 
   .search {
